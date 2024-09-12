@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Channel Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .channel-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .channel {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 23%;
+        }
+        .channel-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">News Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="mt-5">Choose Your Channel</h1>
+        <div class="channel-container">
+            <div class="channel">
+                <div class="channel-title">ETV</div>
+                <p>ETV offers a variety of news programs, entertainment, and documentaries.</p>
+                <a href="/channel/etv" class="btn btn-primary">Watch Now</a>
+            </div>
+            <div class="channel">
+                <div class="channel-title">Maa TV</div>
+                <p>Maa TV is known for its Telugu news, drama shows, and entertainment content.</p>
+                <a href="/channel/maatv" class="btn btn-primary">Watch Now</a>
+            </div>
+            <div class="channel">
+                <div class="channel-title">Zee Telugu</div>
+                <p>Zee Telugu provides 24/7 news, sports, and entertainment programs.</p>
+                <a href="/channel/zeetelugu" class="btn btn-primary">Watch Now</a>
+            </div>
+            <div class="channel">
+                <div class="channel-title">Gemini</div>
+                <p>Gemini TV delivers breaking news, live events, and entertainment shows.</p>
+                <a href="/channel/gemini" class="btn btn-primary">Watch Now</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
