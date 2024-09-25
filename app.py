@@ -22,5 +22,13 @@ def zeetelugu():
 def gemini():
     return render_template('gemini.html')
 
+@app.route('/channel/bakthi')
+def bakthi():
+    return render_template('bakthi.html')
+
+@app.route('/channel/sports')
+def sports():
+    return render_template('sports.html')
+
 if __name__ == '__main__':
     app.run(debug=True)

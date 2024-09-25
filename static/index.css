@@ -1,0 +1,95 @@
+/* index.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Light background for contrast */
+    color: #37414b; /* Text color */
+}
+
+.navbar {
+    background-color: #343a40; /* Darker navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* White text */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #96be25 !important; /* Green on hover */
+}
+
+.container {
+    margin-top: 60px;
+}
+
+h1 {
+    color: #37414b;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.channel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 20px;
+    
+}
+
+.channel {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33.333% - 20px);
+    gap: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.channel:hover {
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.channel:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.channel-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #37414b;
+    text-decoration: underline; /* Underlined title */
+}
+
+.channel p {
+    color: #6c757d; /* Gray text */
+}
+
+.btn-primary {
+    background-color: #28a745; /* Bootstrap's primary green */
+    border-color: #28a745;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #1e7e34; /* Darker border */
+    transform: scale(1.1); /* Scale effect on button hover */
+}
+
+@media (max-width: 768px) {
+    .channel {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

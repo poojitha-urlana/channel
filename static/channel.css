@@ -1,0 +1,84 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Video container styling */
+.video-container {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+}
+
+/* Channel list styling */
+.list-group-item {
+    background-color: #007bff;
+    color: #fff;
+    margin: 5px 0;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.list-group-item:hover {
+    background-color: #0056b3;
+}
+
+.list-group-item a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+h3 {
+    color: #6c757d;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+    position: fixed;
+    top: 200px;
+    right: 70px;
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
